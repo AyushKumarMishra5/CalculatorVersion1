@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <form name="calculator">
+        <div class="head">
+            Simple Calculator
+        </div>
+        <div class="box">
+            <input type="text" name="cal" value="">
+        </div>
+        <br>
+        <br>
+        <div class="num">
+            <input type="button" value="1" onclick="document.calculator.cal.value+='1'">
+            <input type="button" value="2" onclick="document.calculator.cal.value+='2'">
+            <input type="button" value="3" onclick="document.calculator.cal.value+='3'">
+            <input type="button" value="+" onclick="document.calculator.cal.value+='+'">
+            <br>
+            <input type="button" value="4" onclick="document.calculator.cal.value+='4'">
+            <input type="button" value="5" onclick="document.calculator.cal.value+='5'">
+            <input type="button" value="6" onclick="document.calculator.cal.value+='6'">
+            <input type="button" value="-" onclick="document.calculator.cal.value+='-'">
+            <br>
+            <input type="button" value="7" onclick="document.calculator.cal.value+='7'">
+            <input type="button" value="8" onclick="document.calculator.cal.value+='8'">
+            <input type="button" value="9" onclick="document.calculator.cal.value+='9'">
+            <input type="button" value="/" onclick="document.calculator.cal.value+='/'">
+            <br>
+            <input type="button" value="C" onclick="document.calculator.cal.value=''">
+            <input type="button" value="*" onclick="document.calculator.cal.value+='*'">
+            <input type="button" value="0" onclick="document.calculator.cal.value+='0'">
+            <input type="button" value="=" onclick="document.calculator.cal.value=eval(document.calculator.cal.value)">
+            <br>
+        </div>
+    </form>
+    
+</body>
+</html>

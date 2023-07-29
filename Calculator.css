@@ -1,0 +1,51 @@
+body{
+    background-color: wheat;
+}
+.head{
+    /* border: 2px solid white; */
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 10px 10px 10px white;
+    cursor: pointer;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%); */
+}
+.box{
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 5px 5px 3px black;
+    position: absolute;
+    top: 31%;
+    left: 37%;
+    transform: translate(-50% -50%);
+}
+.box input{
+    width: 323px;
+    height: 50px;
+    font-size: 30px;
+    background-color: black;
+    color: white
+}
+.num{
+    border: 1px solid rgb(234, 231, 231);
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+    top: 42%;
+    left: 37%;
+    transform: translate(-50% -50%);
+}
+.num input{
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.num input:hover{
+    color: black;
+    background-color: white;
+}
